@@ -31,7 +31,9 @@ class JdbcTemplateWrapper {
     }
 
     private void stwórzTabelę() {
-
+        jdbcTemplate.execute("DROP TABLE IF EXISTS IntegratedDevelopmentEnvironment;");
+        jdbcTemplate.execute("CREATE TABLE IntegratedDevelopmentEnvironment(" +
+                "id SERIAL NOT NULL AUTO_INCREMENT, nazwa VARCHAR(255), licencja VARCHAR(255), czyNapisanyWJavie BOOLEAN, czyWspieraLinux BOOLEAN )");
     }
 
     private void dodajIde() {
