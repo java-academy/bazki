@@ -12,12 +12,18 @@ W tym repozytorium będziesz mieć okazję zobaczyć przykładowe użycie techno
  * jOOQ
  * Spring JDBC Template
 
-=== Jak pracować z tym repozytorium?
-==== Przykład - pakiet `jdbc`
+== Jak pracować z tym repozytorium?
+
+Zacznijmy od tego, że wspomniane wyżej technologie są alternatywami dla Hibera, a więc
+ułatwiają nam pracę z bazami danych. Przykłady i zadania które znajdziesz w tym repo powstały
+z użyciem bazy danych H2 i sugeruję abyś ty również jej używał(a). Niezależnie od tego, czy
+użyjesz H2 czy jakiejś alternatywy, pamiętaj o poprawieniu konfiguracji w `application.properties`!
+
+=== Przykład - pakiet `jdbc`
 Na początku odwiedź proszę pakiet `jdbc`. Znajdziesz w nim przykładowe użycie wspomnianych technologii, oraz
 plik `package-info` w którym znajdziesz sugestie jak się poruszać po pakiecie.
 
-==== Warsztaty - twoja własna implementacja
+=== Warsztaty - twoja własna implementacja
 Ktoś mądry kiedyś napisał, że:
 ====
 Bez powtórki to lipa, a nie nauka.
@@ -33,7 +39,7 @@ odnalezienie się w tym pakiecie będzie błachostką.
 Ale co jest do zrobienia?
 
 Podobnie jak w przykładzie z pokemonami podstawowe operacje dodawania, wyciągania oraz aktualizacji,
-całość okroszona tworzeniem i czyszczeniem tabeli.
+całość okraszona tworzeniem i czyszczeniem tabeli.
 
 W klasach `JdbcTemplateWrapper` oraz `JooqWrapper` znajdziesz zestaw metod do zaimplementowania. Metodki mają bardzo
 wymowne nazwy, więc nie powinieneś/powinnaś mieć problemów z zgadnięciem o co chodzi.
