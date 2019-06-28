@@ -9,7 +9,7 @@
  * W implementacji używającej jOOQa znajdziesz jedną metodę której ciało w większości jest
  * zakomentowane, oraz opatrzone komentarzem TODO.
  * Jest to kawałek którego nie udało się nam ogarnąć. Kod został aby dać znać gdzie skończyliśmy pracę.
- * Legendy głoszą, że raz na 100 akademii pojawia się bohater, i że bohater ten naprawi tą metodę!
+ * Legendy głoszą, że raz na 100 akademii pojawia się bohater, i że bohater ten naprawi tę metodę!
  * <br/><br/>
  * Może chcesz podjąć wyzwanie? :D
  * <br/><br/>

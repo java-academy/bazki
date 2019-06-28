@@ -32,7 +32,7 @@ Bez powtórki to lipa, a nie nauka.
 ====
 W duch tej myśli czas na powtórkę. W pakiecie `warsztat` znajdziesz kod bardzo podobny
 do tego w pakiecie `jdbc`, więc o ile nie przeskoczyłeś/aś pierwszego kroku, to
-odnalezienie się w tym pakiecie będzie błachostką.
+odnalezienie się w tym pakiecie będzie błahostką.
 
 ...
 

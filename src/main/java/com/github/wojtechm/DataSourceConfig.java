@@ -20,6 +20,7 @@ import java.util.ResourceBundle;
  * Pozwala nam to na łatwiejsze modyfikacje oraz poprawia spójności aplikacji.
  * Dodatkowo, przy aplikacjach Spring Bootowych swego rodzaju odruchem jest szukanie konfiguracji
  * w pliku application.properties właśnie.
+ * Jest też aspekt bezpieczeństwa: kod poleci do repo, plik z konfiguracją zwykle nie, przez co hasło do bazy nie jest w repo.
  *
  * Oczywiście tej aplikacji nikt nie będzie rozszerzał (a przynajmniej wątpię by ktoś chciał to robić)
  * więc jest to lekka przesada, ale cóż... decyzje zostały podjęte.
